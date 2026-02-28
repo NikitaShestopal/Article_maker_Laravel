@@ -6,7 +6,7 @@ Podcast CMS (JSON-based)
 
 No-DB Engine: Вся робота ведеться через локальні JSON-файли (Laravel Storage).
 
-Side Drawer: Форма додавання нової статті виїжджає справа (через FAB-кнопку +).
+Side Drawer: Форма додавання нової статті виїжджає справа (через FAB-кнопку +1).
 
 Blur Effects: Використання backdrop-filter для фокусування на контенті.
 
