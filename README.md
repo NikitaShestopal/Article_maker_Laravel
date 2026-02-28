@@ -15,22 +15,18 @@ Responsive Grid: Адаптивна сітка карток для будь-як
 Laravel Power: Використання колекцій (Collections), маршрутизації та Blade-шаблонів.
 
 Швидкий старт (Setup)
-1. Клонування репозиторію
-git clone https://github.com/your-username/podcast-cms.git
-cd podcast-cms
-
-2. Встановлення залежностей
+1. Встановлення залежностей
 composer install
 npm install && npm run dev
 
-4. Налаштування середовища
+2. Налаштування середовища
 cp .env.example .env
 php artisan key:generate
 
-6. Підготовка сховища
+3. Підготовка сховища
 Переконайтеся, що файл podcasts.json (або ваш шлях у контролері) існує в storage/app/private/ або storage/app/public/.
 php artisan storage:link
 
-7. Запуск
+4. Запуск
 php artisan serve
 Проєкт буде доступний за адресою: http://localhost:8000
